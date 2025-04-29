@@ -1,36 +1,14 @@
-# Archivos compilados
+# Ignorar archivos compilados (.class)
 *.class
 
-# Directorios de compilación
-/bin/
-/out/
-/build/
+# Ignorar carpetas de compilacion (out y bin)
+out/
+bin/
 
-# Archivos de sistema
-.DS_Store
-Thumbs.db
-
-# Archivos de configuración de IDE
-# IntelliJ
+# Ignorar configuraciones del IDE (para IntelliJ IDEA)
 .idea/
 *.iml
 
-# Eclipse
-*.classpath
-*.project
-.settings/
-
-# VS Code
-.vscode/
-
-# Archivos de logs
-*.log
-
-# Archivos temporales
-*.tmp
-*.swp
-
-# Archivos de empaquetado
-*.jar
-*.war
-*.ear
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
