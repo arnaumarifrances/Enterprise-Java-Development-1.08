@@ -29,7 +29,7 @@ abstract class Car {
     }
 
 
-    // Metodo que devuelve la información del coche
+    // Devuelve la información del coche
     String getInfo() {
         return "VIN: " + vinNumber + ", Make: " + make + ", Model: " + model + ", Mileage: " + mileage;
     }

@@ -1,14 +1,20 @@
-# Ignorar archivos compilados (.class)
+# Maven
+target/
+*.log
 *.class
 
-# Ignorar carpetas de compilacion (out y bin)
-out/
-bin/
-
-# Ignorar configuraciones del IDE (para IntelliJ IDEA)
+# IntelliJ IDEA
 .idea/
 *.iml
+out/
 
-# Archivos del sistema operativo
+# Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Archivos personales o temporales
+*.swp
+*.tmp
+
+# Archivos de configuración opcionales
+.env
